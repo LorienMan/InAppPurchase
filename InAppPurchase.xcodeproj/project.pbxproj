@@ -43,6 +43,14 @@
 		093E1CF115A62F3100D5538A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093E1CE815A62F1200D5538A /* Localizable.strings */; };
 		0953E0A315A76E42003716A6 /* Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0953E0A115A76E42003716A6 /* Localization.h */; };
 		0953E0A415A76E42003716A6 /* Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0953E0A215A76E42003716A6 /* Localization.m */; };
+		DEACD80F16355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80616355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h */; };
+		DEACD81016355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80716355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m */; };
+		DEACD81116355AAE001DCDFA /* RRBase64Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80916355AAE001DCDFA /* RRBase64Manager.h */; };
+		DEACD81216355AAE001DCDFA /* RRBase64Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80A16355AAE001DCDFA /* RRBase64Manager.m */; };
+		DEACD81316355AAE001DCDFA /* RRTransactionVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80B16355AAE001DCDFA /* RRTransactionVerifier.h */; };
+		DEACD81416355AAE001DCDFA /* RRTransactionVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80C16355AAE001DCDFA /* RRTransactionVerifier.m */; };
+		DEACD81516355AAE001DCDFA /* RRVerificationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80D16355AAE001DCDFA /* RRVerificationController.h */; };
+		DEACD81616355AAE001DCDFA /* RRVerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80E16355AAE001DCDFA /* RRVerificationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +94,17 @@
 		093E1CEE15A62F2900D5538A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0953E0A115A76E42003716A6 /* Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Localization.h; sourceTree = "<group>"; };
 		0953E0A215A76E42003716A6 /* Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Localization.m; sourceTree = "<group>"; };
+		DEACD80416355AAE001DCDFA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DEACD80516355AAE001DCDFA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEACD80616355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RRTransactionParsingAdditions.h"; sourceTree = "<group>"; };
+		DEACD80716355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+RRTransactionParsingAdditions.m"; sourceTree = "<group>"; };
+		DEACD80816355AAE001DCDFA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DEACD80916355AAE001DCDFA /* RRBase64Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBase64Manager.h; sourceTree = "<group>"; };
+		DEACD80A16355AAE001DCDFA /* RRBase64Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBase64Manager.m; sourceTree = "<group>"; };
+		DEACD80B16355AAE001DCDFA /* RRTransactionVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTransactionVerifier.h; sourceTree = "<group>"; };
+		DEACD80C16355AAE001DCDFA /* RRTransactionVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTransactionVerifier.m; sourceTree = "<group>"; };
+		DEACD80D16355AAE001DCDFA /* RRVerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRVerificationController.h; sourceTree = "<group>"; };
+		DEACD80E16355AAE001DCDFA /* RRVerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRVerificationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +151,7 @@
 		093E1BF915A5EE7F00D5538A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEACD80316355AAE001DCDFA /* iap_validation */,
 				093E1BFA15A5EE7F00D5538A /* Foundation.framework */,
 				093E1C2015A5FB5800D5538A /* UIKit.framework */,
 				093E1C2815A6066900D5538A /* StoreKit.framework */,
@@ -210,6 +230,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DEACD80316355AAE001DCDFA /* iap_validation */ = {
+			isa = PBXGroup;
+			children = (
+				DEACD80416355AAE001DCDFA /* .gitignore */,
+				DEACD80516355AAE001DCDFA /* LICENSE */,
+				DEACD80616355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h */,
+				DEACD80716355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m */,
+				DEACD80816355AAE001DCDFA /* README.md */,
+				DEACD80916355AAE001DCDFA /* RRBase64Manager.h */,
+				DEACD80A16355AAE001DCDFA /* RRBase64Manager.m */,
+				DEACD80B16355AAE001DCDFA /* RRTransactionVerifier.h */,
+				DEACD80C16355AAE001DCDFA /* RRTransactionVerifier.m */,
+				DEACD80D16355AAE001DCDFA /* RRVerificationController.h */,
+				DEACD80E16355AAE001DCDFA /* RRVerificationController.m */,
+			);
+			name = iap_validation;
+			path = vendor/iap_validation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -226,6 +265,10 @@
 				093E1C1715A5FA3700D5538A /* UserDefaultsProductActivator.h in Headers */,
 				093E1C1B15A5FA7C00D5538A /* AlertViewAlertHandler.h in Headers */,
 				0953E0A315A76E42003716A6 /* Localization.h in Headers */,
+				DEACD80F16355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h in Headers */,
+				DEACD81116355AAE001DCDFA /* RRBase64Manager.h in Headers */,
+				DEACD81316355AAE001DCDFA /* RRTransactionVerifier.h in Headers */,
+				DEACD81516355AAE001DCDFA /* RRVerificationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +390,10 @@
 				093E1C1615A5FA3700D5538A /* SKProduct+LocalizedPrice.m in Sources */,
 				093E1C1815A5FA3700D5538A /* UserDefaultsProductActivator.m in Sources */,
 				0953E0A415A76E42003716A6 /* Localization.m in Sources */,
+				DEACD81016355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m in Sources */,
+				DEACD81216355AAE001DCDFA /* RRBase64Manager.m in Sources */,
+				DEACD81416355AAE001DCDFA /* RRTransactionVerifier.m in Sources */,
+				DEACD81616355AAE001DCDFA /* RRVerificationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

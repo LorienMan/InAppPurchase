@@ -9,6 +9,7 @@
 
 #define IN_APP_PURCHASE_PAYMENT_SUCCESS_NOTIFICATION @"InAppPurchasePaymentSuccess"
 #define IN_APP_PURCHASE_PAYMENT_FAIL_NOTIFICATION @"InAppPurchasePaymentFail"
+#define IN_APP_PURCHASE_PAYMENT_VERIFY_FAIL_NOTIFICATION @"InAppPurchasePaymentVerifyFail"
 
 #define IN_APP_PURCHASE_STARTED_NOTIFICATION @"InAppPurchaseStarted"
 #define IN_APP_PURCHASE_FINISHED_NOTIFICATION @"InAppPurchaseFinished"
@@ -19,6 +20,8 @@
 @interface InAppPurchaseManager : NSObject
 
 @property (strong) id<InAppPurchaseAlertHandler> alertHandler;
+
+- (id)initWithSharedSecret:(NSString *)_secret;
 
 - (void)addProductActivator:(id<InAppPurchaseProductActivator>)productHandler;
 
