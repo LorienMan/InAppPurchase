@@ -262,6 +262,10 @@
     [[NSNotificationCenter defaultCenter]
             postNotificationName:IN_APP_PURCHASE_PAYMENT_VERIFY_FAIL_NOTIFICATION
                           object:nil];
+
+    [[NSNotificationCenter defaultCenter]
+            postNotificationName:IN_APP_PURCHASE_FINISHED_NOTIFICATION
+                          object:nil];
 }
 
 @end
