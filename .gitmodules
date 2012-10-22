@@ -1,0 +1,3 @@
+[submodule "vendor/iap_validation"]
+	path = vendor/iap_validation
+	url = git://github.com/evands/iap_validation.git
