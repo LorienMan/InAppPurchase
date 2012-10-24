@@ -43,6 +43,31 @@
 		093E1CF115A62F3100D5538A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093E1CE815A62F1200D5538A /* Localizable.strings */; };
 		0953E0A315A76E42003716A6 /* Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0953E0A115A76E42003716A6 /* Localization.h */; };
 		0953E0A415A76E42003716A6 /* Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0953E0A215A76E42003716A6 /* Localization.m */; };
+		DEAC33DC16380EF100228DE2 /* AlertViewAlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E1C0715A5FA3700D5538A /* AlertViewAlertHandler.m */; };
+		DEAC33DD16380EF100228DE2 /* InAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E1C0A15A5FA3700D5538A /* InAppPurchaseManager.m */; };
+		DEAC33DE16380EF100228DE2 /* SKProduct+LocalizedPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E1C0D15A5FA3700D5538A /* SKProduct+LocalizedPrice.m */; };
+		DEAC33DF16380EF100228DE2 /* UserDefaultsProductActivator.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E1C0F15A5FA3700D5538A /* UserDefaultsProductActivator.m */; };
+		DEAC33E016380EF100228DE2 /* Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0953E0A215A76E42003716A6 /* Localization.m */; };
+		DEAC33E116380EF100228DE2 /* NSData+RRTransactionParsingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80716355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m */; };
+		DEAC33E216380EF100228DE2 /* RRBase64Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80A16355AAE001DCDFA /* RRBase64Manager.m */; };
+		DEAC33E316380EF100228DE2 /* RRTransactionVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80C16355AAE001DCDFA /* RRTransactionVerifier.m */; };
+		DEAC33E416380EF100228DE2 /* RRVerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80E16355AAE001DCDFA /* RRVerificationController.m */; };
+		DEAC33E616380EF100228DE2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093E1C2815A6066900D5538A /* StoreKit.framework */; };
+		DEAC33E716380EF100228DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093E1BFA15A5EE7F00D5538A /* Foundation.framework */; };
+		DEAC33E816380EF100228DE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093E1C2015A5FB5800D5538A /* UIKit.framework */; };
+		DEAC33EA16380EF100228DE2 /* InAppPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C2515A5FDFD00D5538A /* InAppPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33EB16380EF100228DE2 /* InAppPurchaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C0915A5FA3700D5538A /* InAppPurchaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33EC16380EF100228DE2 /* InAppPurchaseProductActivator.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C1C15A5FADC00D5538A /* InAppPurchaseProductActivator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33ED16380EF100228DE2 /* InAppPurchaseAlertHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C0815A5FA3700D5538A /* InAppPurchaseAlertHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33EE16380EF100228DE2 /* NSLog+InAppPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C0B15A5FA3700D5538A /* NSLog+InAppPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33EF16380EF100228DE2 /* SKProduct+LocalizedPrice.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C0C15A5FA3700D5538A /* SKProduct+LocalizedPrice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33F016380EF100228DE2 /* UserDefaultsProductActivator.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C0E15A5FA3700D5538A /* UserDefaultsProductActivator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33F116380EF100228DE2 /* AlertViewAlertHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 093E1C1A15A5FA7C00D5538A /* AlertViewAlertHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC33F216380EF100228DE2 /* Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0953E0A115A76E42003716A6 /* Localization.h */; };
+		DEAC33F316380EF100228DE2 /* NSData+RRTransactionParsingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80616355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h */; };
+		DEAC33F416380EF100228DE2 /* RRBase64Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80916355AAE001DCDFA /* RRBase64Manager.h */; };
+		DEAC33F516380EF100228DE2 /* RRTransactionVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80B16355AAE001DCDFA /* RRTransactionVerifier.h */; };
+		DEAC33F616380EF100228DE2 /* RRVerificationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80D16355AAE001DCDFA /* RRVerificationController.h */; };
 		DEACD80F16355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80616355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h */; };
 		DEACD81016355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEACD80716355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.m */; };
 		DEACD81116355AAE001DCDFA /* RRBase64Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACD80916355AAE001DCDFA /* RRBase64Manager.h */; };
@@ -94,6 +119,7 @@
 		093E1CEE15A62F2900D5538A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0953E0A115A76E42003716A6 /* Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Localization.h; sourceTree = "<group>"; };
 		0953E0A215A76E42003716A6 /* Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Localization.m; sourceTree = "<group>"; };
+		DEAC33FB16380EF100228DE2 /* libInAppPurchase-iOS-Device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libInAppPurchase-iOS-Device.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEACD80416355AAE001DCDFA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DEACD80516355AAE001DCDFA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DEACD80616355AAE001DCDFA /* NSData+RRTransactionParsingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RRTransactionParsingAdditions.h"; sourceTree = "<group>"; };
@@ -126,6 +152,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEAC33E516380EF100228DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC33E616380EF100228DE2 /* StoreKit.framework in Frameworks */,
+				DEAC33E716380EF100228DE2 /* Foundation.framework in Frameworks */,
+				DEAC33E816380EF100228DE2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -144,6 +180,7 @@
 			children = (
 				093E1BF715A5EE7F00D5538A /* libInAppPurchase.a */,
 				093E1CDB15A62E0200D5538A /* InAppPurchase.bundle */,
+				DEAC33FB16380EF100228DE2 /* libInAppPurchase-iOS-Device.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,6 +309,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEAC33E916380EF100228DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC33EA16380EF100228DE2 /* InAppPurchase.h in Headers */,
+				DEAC33EB16380EF100228DE2 /* InAppPurchaseManager.h in Headers */,
+				DEAC33EC16380EF100228DE2 /* InAppPurchaseProductActivator.h in Headers */,
+				DEAC33ED16380EF100228DE2 /* InAppPurchaseAlertHandler.h in Headers */,
+				DEAC33EE16380EF100228DE2 /* NSLog+InAppPurchase.h in Headers */,
+				DEAC33EF16380EF100228DE2 /* SKProduct+LocalizedPrice.h in Headers */,
+				DEAC33F016380EF100228DE2 /* UserDefaultsProductActivator.h in Headers */,
+				DEAC33F116380EF100228DE2 /* AlertViewAlertHandler.h in Headers */,
+				DEAC33F216380EF100228DE2 /* Localization.h in Headers */,
+				DEAC33F316380EF100228DE2 /* NSData+RRTransactionParsingAdditions.h in Headers */,
+				DEAC33F416380EF100228DE2 /* RRBase64Manager.h in Headers */,
+				DEAC33F516380EF100228DE2 /* RRTransactionVerifier.h in Headers */,
+				DEAC33F616380EF100228DE2 /* RRVerificationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -310,6 +367,23 @@
 			productReference = 093E1CDB15A62E0200D5538A /* InAppPurchase.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		DEAC33DA16380EF100228DE2 /* InAppPurchase-iOS-Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAC33F816380EF100228DE2 /* Build configuration list for PBXNativeTarget "InAppPurchase-iOS-Device" */;
+			buildPhases = (
+				DEAC33DB16380EF100228DE2 /* Sources */,
+				DEAC33E516380EF100228DE2 /* Frameworks */,
+				DEAC33E916380EF100228DE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InAppPurchase-iOS-Device";
+			productName = InAppPurchase;
+			productReference = DEAC33FB16380EF100228DE2 /* libInAppPurchase-iOS-Device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,6 +409,7 @@
 				093E1BF615A5EE7F00D5538A /* InAppPurchase */,
 				093E1C2A15A6086700D5538A /* Framework */,
 				093E1CDA15A62E0200D5538A /* InAppPurchaseResources */,
+				DEAC33DA16380EF100228DE2 /* InAppPurchase-iOS-Device */,
 			);
 		};
 /* End PBXProject section */
@@ -401,6 +476,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC33DB16380EF100228DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC33DC16380EF100228DE2 /* AlertViewAlertHandler.m in Sources */,
+				DEAC33DD16380EF100228DE2 /* InAppPurchaseManager.m in Sources */,
+				DEAC33DE16380EF100228DE2 /* SKProduct+LocalizedPrice.m in Sources */,
+				DEAC33DF16380EF100228DE2 /* UserDefaultsProductActivator.m in Sources */,
+				DEAC33E016380EF100228DE2 /* Localization.m in Sources */,
+				DEAC33E116380EF100228DE2 /* NSData+RRTransactionParsingAdditions.m in Sources */,
+				DEAC33E216380EF100228DE2 /* RRBase64Manager.m in Sources */,
+				DEAC33E316380EF100228DE2 /* RRTransactionVerifier.m in Sources */,
+				DEAC33E416380EF100228DE2 /* RRVerificationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +637,30 @@
 			};
 			name = Release;
 		};
+		DEAC33F916380EF100228DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/InAppPurchase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppPurchase/InAppPurchase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "InAppPurchase-iOS-Device";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEAC33FA16380EF100228DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/InAppPurchase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppPurchase/InAppPurchase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "InAppPurchase-iOS-Device";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +696,15 @@
 			buildConfigurations = (
 				093E1CE615A62E0200D5538A /* Debug */,
 				093E1CE715A62E0200D5538A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAC33F816380EF100228DE2 /* Build configuration list for PBXNativeTarget "InAppPurchase-iOS-Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAC33F916380EF100228DE2 /* Debug */,
+				DEAC33FA16380EF100228DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
